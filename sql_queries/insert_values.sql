@@ -1,21 +1,3 @@
-create table daydash.Day
-(
-	DayId int primary key auto_increment,
-	DayName nvarchar(128) not null
-)
-
-create table daydash.Routine
-(
-  RoutineId int primary key auto_increment,
-  RoutineName nvarchar(128) not null
-)
-
-create table daydash.DayRoutineLink
-(
-  DayId int foreign key references daydash.Day(DayId),
-  RoutineId int foreign key references daydash.Routine(RoutineId)
-)
-
 insert into daydash.Day(DayName) values ("Monday")
 insert into daydash.Day(DayName) values ("Tuesday")
 insert into daydash.Day(DayName) values ("Wednesday")
