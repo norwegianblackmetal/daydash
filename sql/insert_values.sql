@@ -19,10 +19,16 @@ insert into daydash.Routine(RoutineName) values ("Planning");
 insert into daydash.Routine(RoutineName) values ("Linux");
 insert into daydash.Routine(RoutineName) values ("Reading books");
 insert into daydash.Routine(RoutineName) values ("Socialization");
+insert into daydash.Routine(RoutineName) values ("Sleep");
 
+# Monday
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 1, "7:00");
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 2, "7:30");
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 3, "8:00");
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 4, "12:00");
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 3, "13:00");
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 5, "17:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 7, "18:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 10, "19:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 11, "20:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 12, "21:30");
