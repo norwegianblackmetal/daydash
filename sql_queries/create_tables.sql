@@ -6,12 +6,12 @@ create table daydash.Day
 
 create table daydash.Routine
 (
-  RoutineId int primary key,
-  RoutineName nvarchar(128) not null
+	RoutineId int primary key,
+	RoutineName nvarchar(128) not null
 )
 
 create table daydash.DayRoutineLink
 (
-  DayId int foreign key references daydash.Day(DayId),
-  RoutineId int foreign key references daydash.Routine(RoutineId)
+	DayId int foreign key references daydash.Day(DayId),
+	RoutineId int foreign key references daydash.Routine(RoutineId)
 )
