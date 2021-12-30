@@ -7,7 +7,7 @@ CREATE TABLE daydash.Day
 
 CREATE TABLE daydash.Routine
 (
-        RoutineId INT AUTO_INCREMENT,
+        RoutineId INT,
         RoutineName VARCHAR(128) NOT NULL,
 				PRIMARY KEY (RoutineId)
 );
