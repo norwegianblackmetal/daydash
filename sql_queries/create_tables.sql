@@ -19,5 +19,6 @@ CREATE TABLE daydash.DayRoutineLink
                 REFERENCES Day(DayId),
         RoutineId INT,
         FOREIGN KEY (RoutineId)
-                REFERENCES Routine(RoutineId)
+                REFERENCES Routine(RoutineId),
+				Time TIME
 );

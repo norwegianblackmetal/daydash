@@ -20,3 +20,10 @@ insert into daydash.Routine(RoutineName) values ("Планирование");
 insert into daydash.Routine(RoutineName) values ("Linux");
 insert into daydash.Routine(RoutineName) values ("Чтение книг");
 insert into daydash.Routine(RoutineName) values ("Социализация");
+
+insert into daydash.DayRoutineLink(DayId, RoutineId) values ();
+insert into daydash.DayRoutineLink(DayId, RoutineId) values ();
+insert into daydash.DayRoutineLink(DayId, RoutineId) values ();
+insert into daydash.DayRoutineLink(DayId, RoutineId) values ();
+insert into daydash.DayRoutineLink(DayId, RoutineId) values ();
+insert into daydash.DayRoutineLink(DayId, RoutineId) values ();
