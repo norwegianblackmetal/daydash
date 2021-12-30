@@ -1,13 +1,15 @@
 CREATE TABLE daydash.Day
 (
-        DayId INT PRIMARY KEY,
-        DayName VARCHAR(128) not null
+        DayId INT AUTO_INCREMENT,
+        DayName VARCHAR(128) NOT NULL,
+				PRIMARY KEY (DayId)
 );
 
 CREATE TABLE daydash.Routine
 (
-        RoutineId INT PRIMARY KEY,
-        RoutineName VARCHAR(128) not null
+        RoutineId INT AUTO_INCREMENT,
+        RoutineName VARCHAR(128) NOT NULL,
+				PRIMARY KEY (RoutineId)
 );
 
 CREATE TABLE daydash.DayRoutineLink
