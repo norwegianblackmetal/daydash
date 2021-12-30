@@ -1,16 +1,16 @@
-create table daydash.Day
+CREATE TABLE [IF NOT EXISTS] daydash.Day
 (
 	DayId int primary key,
-	DayName nvarchar(128) not null
+	DayName VARCHAR(128) not null
 );
 
-create table daydash.Routine
+CREATE TABLE [IF NOT EXISTS] daydash.Routine
 (
 	RoutineId int primary key,
-	RoutineName nvarchar(128) not null
+	RoutineName VARCHAR(128) not null
 );
 
-create table daydash.DayRoutineLink
+CREATE TABLE [IF NOT EXISTS] daydash.DayRoutineLink
 (
 	DayId int foreign key references daydash.Day(DayId),
 	RoutineId int foreign key references daydash.Routine(RoutineId)
