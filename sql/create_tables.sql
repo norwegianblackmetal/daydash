@@ -1,3 +1,7 @@
+DROP TABLE DayRoutineLink;
+DROP TABLE Routine;
+DROP TABLE Day;
+
 CREATE TABLE daydash.Day
 (
         DayId INT AUTO_INCREMENT,
