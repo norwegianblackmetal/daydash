@@ -2,6 +2,11 @@ DROP TABLE DayRoutineLink;
 DROP TABLE Routine;
 DROP TABLE Day;
 
+DROP DATABASE daydash;
+
+CREATE DATABASE daydash;
+SET time_zone = 'Europe/Moscow';
+
 CREATE TABLE daydash.Day
 (
         DayId INT AUTO_INCREMENT,
