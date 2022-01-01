@@ -1,10 +1,10 @@
-DROP TABLE DayRoutineLink;
-DROP TABLE Routine;
-DROP TABLE Day;
+DROP TABLE IF EXISTS DayRoutineLink;
+DROP TABLE IF EXISTS Routine;
+DROP TABLE IF EXISTS Day;
 
-DROP DATABASE daydash;
+#DROP DATABASE daydash;
 
-CREATE DATABASE daydash;
+#CREATE DATABASE daydash;
 SET time_zone = 'Europe/Moscow';
 
 CREATE TABLE daydash.Day
