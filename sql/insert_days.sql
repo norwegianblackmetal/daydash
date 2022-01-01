@@ -1,3 +1,4 @@
+# Days
 insert into daydash.Day(DayName) values ("Monday");
 insert into daydash.Day(DayName) values ("Tuesday");
 insert into daydash.Day(DayName) values ("Wednesday");
@@ -6,22 +7,6 @@ insert into daydash.Day(DayName) values ("Friday");
 insert into daydash.Day(DayName) values ("Saturday");
 insert into daydash.Day(DayName) values ("Sunday");
 
-insert into daydash.Routine(RoutineId, RoutineName) values (1, "Breakfast");
-insert into daydash.Routine(RoutineId, RoutineName) values (2, "Reading news");
-insert into daydash.Routine(RoutineId, RoutineName) values (3, "Work");
-insert into daydash.Routine(RoutineId, RoutineName) values (4, "Dinner");
-insert into daydash.Routine(RoutineId, RoutineName) values (5, "Running");
-insert into daydash.Routine(RoutineId, RoutineName) values (6, "Workout");
-insert into daydash.Routine(RoutineId, RoutineName) values (7, "Genealogy");
-insert into daydash.Routine(RoutineId, RoutineName) values (8, "Finance");
-insert into daydash.Routine(RoutineId, RoutineName) values (9, "Current tasks");
-insert into daydash.Routine(RoutineId, RoutineName) values (10, "Planning");
-insert into daydash.Routine(RoutineId, RoutineName) values (11, "Linux");
-insert into daydash.Routine(RoutineId, RoutineName) values (12, "Reading books");
-insert into daydash.Routine(RoutineId, RoutineName) values (13, "Socialization");
-insert into daydash.Routine(RoutineId, RoutineName) values (14, "Sleep");
-
-# INSERT VALUES
 # Monday
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 1, "7:00");
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (1, 2, "7:30");
@@ -81,3 +66,27 @@ insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 9, "18:30"
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 8, "19:30");
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 11, "20:30");
 insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 12, "21:30");
+
+# Saturday
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 1, "7:00");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 2, "7:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 3, "8:00");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 4, "14:00");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 3, "13:00");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 5, "17:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 9, "18:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 8, "19:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 11, "20:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 12, "21:30");
+
+# Sunday
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 1, "7:00");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 2, "7:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 3, "8:00");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 4, "14:00");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 3, "13:00");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 6, "17:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 9, "18:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 11, "19:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 12, "20:30");
+insert into daydash.DayRoutineLink(DayId, RoutineId, Time) values (5, 14, "21:30");

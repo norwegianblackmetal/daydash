@@ -1,0 +1,14 @@
+insert into daydash.Routine(RoutineId, RoutineName) values (1, "Breakfast");
+insert into daydash.Routine(RoutineId, RoutineName) values (2, "Reading news");
+insert into daydash.Routine(RoutineId, RoutineName) values (3, "Work");
+insert into daydash.Routine(RoutineId, RoutineName) values (4, "Dinner");
+insert into daydash.Routine(RoutineId, RoutineName) values (5, "Running");
+insert into daydash.Routine(RoutineId, RoutineName) values (6, "Workout");
+insert into daydash.Routine(RoutineId, RoutineName) values (7, "Genealogy");
+insert into daydash.Routine(RoutineId, RoutineName) values (8, "Finance");
+insert into daydash.Routine(RoutineId, RoutineName) values (9, "Current tasks");
+insert into daydash.Routine(RoutineId, RoutineName) values (10, "Planning");
+insert into daydash.Routine(RoutineId, RoutineName) values (11, "Linux");
+insert into daydash.Routine(RoutineId, RoutineName) values (12, "Reading books");
+insert into daydash.Routine(RoutineId, RoutineName) values (13, "Socialization");
+insert into daydash.Routine(RoutineId, RoutineName) values (14, "Sleep");
